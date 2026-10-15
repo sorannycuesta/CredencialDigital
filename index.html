@@ -17,56 +17,61 @@
         <!-- Insignia -->
         <span class="insignia">BOOTCAMP 2026</span>
 
+        <!-- COLUMNA IZQUIERDA -->
         <header>
-            <!-- Contenedor del avatar con su etiqueta -->
             <div class="avatar-container">
                 <img src="img/Avatar.jpg" alt="Foto de perfil">
                 <span class="status-badge">ONLINE</span>
             </div>
-            <h1>Soranny Cuesta Murillo</h1>
-            <h2>Desarrolladora Junior Full Stack/Java</h2>
         </header>
 
-        <!-- Sección de información  -->
-        <section class="section-info">
+        <!-- COLUMNA DERECHA (Datos y Pie de página juntos) -->
+        <div class="datos-y-pie">
             
-            <!-- Ciudad -->
-            <div class="dato-item">
-                <i class="fa-solid fa-map-pin"></i>
-                <p>Medellín, Colombia</p>
-            </div>
-            
-            <!-- Correo -->
-            <div class="dato-item">
-                <i class="fa-solid fa-envelope"></i>
-                <p>desarrolladora@devgenn.com</p>
-            </div>
-            
-            <!-- Tecnología -->
-            <div class="dato-item">
-                <i class="fa-solid fa-code"></i>
-                <p><strong>Tecnología:</strong> JavaScript</p>
-            </div>
-            
-            <!-- Hobby -->
-            <div class="dato-item">
-                <p><strong>Hobby:</strong> Fotografía urbana</p>
+            <div class="titulos-usuario">
+                <h1>Soranny Cuesta Murillo</h1>
+                <h2>Desarrolladora Junior Full Stack/Java</h2>
             </div>
 
-        </section>
-        
-        <!-- Pie de página -->
-        <footer>
-            <div class="github-container">
-                <!-- Enlace de GitHub -->
-                <a href="https://github.com/sorannycuesta" target="_blank">
-                    <i class="fa-brands fa-github"></i> GitHub Profile
-                </a>
-            </div>
-            <blockquote class="frase-personal">
-                "El código es como el arte; se construye detalle a detalle."
-            </blockquote>
-        </footer>
+            <!-- Sección de información -->
+            <section class="section-info">
+                <!-- Ciudad -->
+                <div class="dato-item">
+                    <span class="label-cedula"><i class="fa-solid fa-map-pin"></i> Ubicación</span>
+                    <p>Medellín, Colombia</p>
+                </div>
+                
+                <!-- Correo -->
+                <div class="dato-item">
+                    <span class="label-cedula"><i class="fa-solid fa-envelope"></i> Correo</span>
+                    <p>desarrolladora@devgenn.com</p>
+                </div>
+                
+                <!-- Tecnología y Hobby unificados en filas limpias -->
+                <div class="dato-item">
+                    <span class="label-cedula"><i class="fa-solid fa-code"></i> Tecnología Principal</span>
+                    <p>JavaScript</p>
+                </div>
+                
+                <div class="dato-item">
+                    <span class="label-cedula"><i class="fa-solid fa-camera"></i> Hobby</span>
+                    <p>Fotografía urbana</p>
+                </div>
+            </section>
+            
+            <!-- Pie de página integrado -->
+            <footer>
+                <div class="github-container">
+                    <a href="https://github.com/sorannycuesta" target="_blank">
+                        <i class="fa-brands fa-github"></i> GitHub Profile
+                    </a>
+                </div>
+                <blockquote class="frase-personal">
+                    "El código es como el arte; se construye detalle a detalle."
+                </blockquote>
+            </footer>
+
+        </div>
 
     </article>
 
