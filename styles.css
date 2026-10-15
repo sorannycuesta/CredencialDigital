@@ -71,4 +71,102 @@ header {
     border: 3px solid #4f46e5; /* Color corporativo */
 }
 
+/* Etiqueta flotante ONLINE */
+.status-badge {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: #22c55e; /* Verde brillante online */
+    color: white;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 3px 6px;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+}
 
+h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 5px;
+}
+
+header h2 {
+    font-size: 14px;
+    color: #64748b;
+    font-weight: 500;
+}
+
+/* --- SECCIÓN INFORMACIÓN --- */
+.section-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* Gap para separar elementos sin usar <br> */
+    padding: 20px 0;
+    border-top: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.dato-item {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Separación horizontal interna */
+    color: #334155;
+    font-size: 14px;
+}
+
+/* Iconos profesionales con estilos propios y Hover */
+.dato-item i {
+    color: #4f46e5; /* Color corporativo */
+    width: 20px;
+    text-align: center;
+    font-size: 16px;
+    transition: transform 0.2s ease;
+}
+
+/* Empuja el texto del hobby hacia la derecha para compensar el espacio del icono que no tiene */
+.dato-item:last-child p {
+    margin-left: 30px; /* 20px del ancho del icono + 10px del gap */
+}
+
+
+.dato-item:hover i {
+    transform: scale(1.2); /* Hover sobre los iconos */
+}
+
+/* --- PIE DE PÁGINA --- */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Distribución equilibrada */
+    margin-top: 20px;
+}
+
+.github-container a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #0f172a;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+
+.github-container a:hover {
+    background-color: #f8fafc; /* Efecto interactivo al pasar el mouse */
+}
+
+.frase-personal {
+    font-size: 12px;
+    font-style: italic;
+    color: #64748b;
+    text-align: center;
+    line-height: 1.5;
+    max-width: 90%;
+}
